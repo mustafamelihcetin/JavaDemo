@@ -47,6 +47,16 @@ public class Main {
 		individualCustomer.setFirstName("Melih");
 		individualCustomer.setLastName("Çetin");
 		
+		CorporateCustomer corporateCustomer = new CorporateCustomer();
+		corporateCustomer.setId(2);
+		corporateCustomer.setCompanyName("melihcetin.com");
+		corporateCustomer.setPhone("02415123541");
+		corporateCustomer.setTaxNumber("42341242134");
+		corporateCustomer.setCustomerNumber("54213");
+		
+		Customer[] customers = {individualCustomer,corporateCustomer};
+		
 	}
 
 }
+
